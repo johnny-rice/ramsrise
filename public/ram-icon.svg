@@ -1,0 +1,58 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- High-res version for apple-icon and other uses -->
+  <defs>
+    <linearGradient id="ramGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A02142;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B1538;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <g>
+    <!-- Left horn -->
+    <path d="M96 160C96 160 64 128 48 128C32 128 16 144 32 176C48 208 80 224 96 224C96 224 96 192 96 160Z" fill="url(#ramGradient)"/>
+    <path d="M96 160C96 160 112 144 128 144C144 144 160 160 160 176" stroke="#6B0F2A" stroke-width="8" fill="none" opacity="0.6"/>
+    
+    <!-- Right horn -->
+    <path d="M416 160C416 160 448 128 464 128C480 128 496 144 480 176C464 208 432 224 416 224C416 224 416 192 416 160Z" fill="url(#ramGradient)"/>
+    <path d="M416 160C416 160 400 144 384 144C368 144 352 160 352 176" stroke="#6B0F2A" stroke-width="8" fill="none" opacity="0.6"/>
+    
+    <!-- Head -->
+    <ellipse cx="256" cy="256" rx="160" ry="192" fill="url(#ramGradient)"/>
+    
+    <!-- Snout -->
+    <ellipse cx="256" cy="352" rx="96" ry="80" fill="#A02142"/>
+    
+    <!-- Ears -->
+    <ellipse cx="180" cy="200" rx="25" ry="40" fill="#6B0F2A" opacity="0.8"/>
+    <ellipse cx="332" cy="200" rx="25" ry="40" fill="#6B0F2A" opacity="0.8"/>
+    
+    <!-- Eyes -->
+    <circle cx="208" cy="224" r="24" fill="#2D0A14"/>
+    <circle cx="304" cy="224" r="24" fill="#2D0A14"/>
+    
+    <!-- Eye highlights -->
+    <circle cx="216" cy="216" r="8" fill="white" opacity="0.9"/>
+    <circle cx="312" cy="216" r="8" fill="white" opacity="0.9"/>
+    
+    <!-- Nose -->
+    <ellipse cx="256" cy="336" rx="24" ry="16" fill="#2D0A14"/>
+    
+    <!-- Nostrils -->
+    <ellipse cx="232" cy="336" rx="8" ry="5" fill="#1A0509"/>
+    <ellipse cx="280" cy="336" rx="8" ry="5" fill="#1A0509"/>
+    
+    <!-- Mouth -->
+    <path d="M256 352C256 352 240 368 256 376C272 368 256 352 256 352Z" fill="#2D0A14" opacity="0.6"/>
+    
+    <!-- Wool texture details -->
+    <circle cx="256" cy="160" r="20" fill="#6B0F2A" opacity="0.3"/>
+    <circle cx="200" cy="180" r="15" fill="#6B0F2A" opacity="0.3"/>
+    <circle cx="312" cy="180" r="15" fill="#6B0F2A" opacity="0.3"/>
+    <circle cx="220" cy="280" r="18" fill="#6B0F2A" opacity="0.3"/>
+    <circle cx="292" cy="280" r="18" fill="#6B0F2A" opacity="0.3"/>
+    <circle cx="176" cy="240" r="16" fill="#6B0F2A" opacity="0.3"/>
+    <circle cx="336" cy="240" r="16" fill="#6B0F2A" opacity="0.3"/>
+  </g>
+</svg>
+
+

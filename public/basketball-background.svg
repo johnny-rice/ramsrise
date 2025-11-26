@@ -1,0 +1,122 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background (court colors) -->
+  <defs>
+    <linearGradient id="courtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:hsl(25 60% 45%);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:hsl(20 50% 30%);stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="spotlight" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:hsl(40 80% 70%);stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:hsl(40 80% 70%);stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Court floor -->
+  <rect width="600" height="400" fill="url(#courtGrad)"/>
+  
+  <!-- Spotlight effect -->
+  <ellipse cx="300" cy="200" rx="350" ry="250" fill="url(#spotlight)"/>
+  
+  <!-- Wood grain texture -->
+  <g opacity="0.1">
+    <line x1="0" y1="50" x2="600" y2="60" stroke="hsl(20 40% 20%)" stroke-width="1"/>
+    <line x1="0" y1="120" x2="600" y2="125" stroke="hsl(20 40% 20%)" stroke-width="1"/>
+    <line x1="0" y1="180" x2="600" y2="190" stroke="hsl(20 40% 20%)" stroke-width="1"/>
+    <line x1="0" y1="250" x2="600" y2="255" stroke="hsl(20 40% 20%)" stroke-width="1"/>
+    <line x1="0" y1="310" x2="600" y2="320" stroke="hsl(20 40% 20%)" stroke-width="1"/>
+  </g>
+  
+  <!-- Court markings -->
+  <g stroke="white" stroke-width="3" fill="none" opacity="0.6">
+    <!-- Sidelines -->
+    <rect x="50" y="50" width="500" height="300" rx="2"/>
+    
+    <!-- Half court line -->
+    <line x1="300" y1="50" x2="300" y2="350"/>
+    
+    <!-- Center circle -->
+    <circle cx="300" cy="200" r="50"/>
+    <circle cx="300" cy="200" r="20"/>
+    
+    <!-- Three-point arc left -->
+    <path d="M 100 90 A 130 130 0 0 0 100 310"/>
+    
+    <!-- Three-point arc right -->
+    <path d="M 500 90 A 130 130 0 0 1 500 310"/>
+    
+    <!-- Key/paint left -->
+    <rect x="50" y="140" width="100" height="120"/>
+    <circle cx="150" cy="200" r="60"/>
+    
+    <!-- Key/paint right -->
+    <rect x="450" y="140" width="100" height="120"/>
+    <circle cx="450" cy="200" r="60"/>
+    
+    <!-- Free throw circles -->
+    <circle cx="150" cy="200" r="60" stroke-dasharray="8,8" opacity="0.4"/>
+    <circle cx="450" cy="200" r="60" stroke-dasharray="8,8" opacity="0.4"/>
+  </g>
+  
+  <!-- Basketball hoop shadows -->
+  <g opacity="0.25">
+    <ellipse cx="150" cy="120" rx="30" ry="5" fill="hsl(20 30% 20%)"/>
+    <ellipse cx="450" cy="120" rx="30" ry="5" fill="hsl(20 30% 20%)"/>
+  </g>
+  
+  <!-- Basketball hoops -->
+  <g opacity="0.7">
+    <!-- Left hoop -->
+    <ellipse cx="150" cy="100" rx="25" ry="8" fill="none" stroke="hsl(10 60% 45%)" stroke-width="2.5"/>
+    <line x1="150" y1="100" x2="150" y2="50" stroke="hsl(0 0% 40%)" stroke-width="2"/>
+    <rect x="148" y="92" width="4" height="8" fill="hsl(0 0% 95%)"/>
+    
+    <!-- Right hoop -->
+    <ellipse cx="450" cy="100" rx="25" ry="8" fill="none" stroke="hsl(10 60% 45%)" stroke-width="2.5"/>
+    <line x1="450" y1="100" x2="450" y2="50" stroke="hsl(0 0% 40%)" stroke-width="2"/>
+    <rect x="448" y="92" width="4" height="8" fill="hsl(0 0% 95%)"/>
+  </g>
+  
+  <!-- Basketball -->
+  <g opacity="0.8">
+    <circle cx="320" cy="180" r="25" fill="hsl(25 70% 50%)"/>
+    <circle cx="320" cy="180" r="25" fill="none" stroke="hsl(20 60% 35%)" stroke-width="1.5"/>
+    
+    <!-- Basketball seams -->
+    <g stroke="hsl(20 60% 35%)" stroke-width="1.5" fill="none">
+      <path d="M 320 155 L 320 205"/>
+      <path d="M 295 180 L 345 180"/>
+      <path d="M 305 165 Q 320 172 335 165"/>
+      <path d="M 305 195 Q 320 188 335 195"/>
+      <ellipse cx="320" cy="180" rx="18" ry="25"/>
+    </g>
+    
+    <!-- Highlight -->
+    <circle cx="312" cy="172" r="6" fill="hsl(40 80% 70%)" opacity="0.4"/>
+  </g>
+  
+  <!-- Abstract player silhouettes -->
+  <g opacity="0.15" fill="white">
+    <!-- Player 1 (left side, jumping) -->
+    <ellipse cx="200" cy="240" rx="12" ry="18" transform="rotate(-15 200 240)"/>
+    <circle cx="200" cy="220" r="8"/>
+    <path d="M 200 238 L 195 265 M 200 238 L 210 268"/>
+    
+    <!-- Player 2 (right side) -->
+    <ellipse cx="380" cy="260" rx="10" ry="16"/>
+    <circle cx="380" cy="246" r="7"/>
+    <line x1="380" y1="276" x2="376" y2="295" stroke="white" stroke-width="3"/>
+    <line x1="380" y1="276" x2="386" y2="295" stroke="white" stroke-width="3"/>
+  </g>
+  
+  <!-- Motion blur lines -->
+  <g opacity="0.2" stroke="white" stroke-width="3">
+    <line x1="285" y1="175" x2="305" y2="178"/>
+    <line x1="288" y1="185" x2="308" y2="187"/>
+  </g>
+  
+  <!-- "3v3" text subtle background -->
+  <text x="480" y="360" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="white" opacity="0.12">3v3</text>
+</svg>
+
+

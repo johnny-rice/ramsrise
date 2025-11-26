@@ -1,0 +1,101 @@
+<svg width="1600" height="800" viewBox="0 0 1600 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:hsl(220 20% 12%);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:hsl(220 15% 8%);stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:hsl(220 70% 50%);stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:hsl(220 70% 50%);stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:hsl(280 70% 50%);stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:hsl(280 70% 50%);stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base -->
+  <rect width="1600" height="800" fill="url(#heroGrad)"/>
+  
+  <!-- Glowing orbs -->
+  <circle cx="300" cy="200" r="200" fill="url(#glow1)" opacity="0.5"/>
+  <circle cx="1300" cy="600" r="250" fill="url(#glow2)" opacity="0.4"/>
+  
+  <!-- Basketball Court Lines (subtle) -->
+  <g opacity="0.15" stroke="hsl(220 30% 60%)" stroke-width="2" fill="none">
+    <!-- Half court line -->
+    <line x1="800" y1="100" x2="800" y2="700"/>
+    
+    <!-- Three point arc left -->
+    <path d="M 200 400 A 200 200 0 0 1 200 400 Q 200 250 350 200 Q 500 150 650 200 Q 750 250 750 400 Q 750 550 650 600 Q 500 650 350 600 Q 200 550 200 400"/>
+    
+    <!-- Three point arc right -->
+    <path d="M 1400 400 A 200 200 0 0 1 1400 400 Q 1400 250 1250 200 Q 1100 150 950 200 Q 850 250 850 400 Q 850 550 950 600 Q 1100 650 1250 600 Q 1400 550 1400 400"/>
+    
+    <!-- Center circle -->
+    <circle cx="800" cy="400" r="80"/>
+    
+    <!-- Key/paint areas -->
+    <rect x="100" y="300" width="150" height="200" rx="5"/>
+    <rect x="1350" y="300" width="150" height="200" rx="5"/>
+  </g>
+  
+  <!-- Abstract geometric shapes -->
+  <g opacity="0.1" fill="hsl(220 50% 70%)">
+    <circle cx="150" cy="650" r="40"/>
+    <circle cx="1450" cy="150" r="60"/>
+    <polygon points="400,700 420,750 380,750"/>
+    <polygon points="1200,100 1220,150 1180,150"/>
+  </g>
+  
+  <!-- Connection lines (representing community) -->
+  <g opacity="0.08" stroke="hsl(220 40% 60%)" stroke-width="1.5">
+    <line x1="200" y1="200" x2="600" y2="400"/>
+    <line x1="600" y1="400" x2="1000" y2="300"/>
+    <line x1="1000" y1="300" x2="1400" y2="600"/>
+    <line x1="400" y1="600" x2="800" y2="200"/>
+    <line x1="800" y1="200" x2="1200" y2="500"/>
+  </g>
+  
+  <!-- Dots representing people/community -->
+  <g opacity="0.3" fill="hsl(220 50% 60%)">
+    <circle cx="200" cy="200" r="4"/>
+    <circle cx="600" cy="400" r="4"/>
+    <circle cx="1000" cy="300" r="4"/>
+    <circle cx="1400" cy="600" r="4"/>
+    <circle cx="400" cy="600" r="4"/>
+    <circle cx="800" cy="200" r="4"/>
+    <circle cx="1200" cy="500" r="4"/>
+  </g>
+  
+  <!-- Decorative basketball elements -->
+  <g opacity="0.12">
+    <!-- Basketball outline top right -->
+    <circle cx="1350" cy="180" r="45" stroke="hsl(220 40% 55%)" stroke-width="2" fill="none"/>
+    <path d="M 1350 135 L 1350 225" stroke="hsl(220 40% 55%)" stroke-width="2"/>
+    <path d="M 1305 180 L 1395 180" stroke="hsl(220 40% 55%)" stroke-width="2"/>
+    <path d="M 1320 150 Q 1350 165 1380 150" stroke="hsl(220 40% 55%)" stroke-width="2" fill="none"/>
+    <path d="M 1320 210 Q 1350 195 1380 210" stroke="hsl(220 40% 55%)" stroke-width="2" fill="none"/>
+    
+    <!-- Basketball outline bottom left -->
+    <circle cx="250" cy="620" r="35" stroke="hsl(220 40% 55%)" stroke-width="1.5" fill="none"/>
+    <path d="M 250 585 L 250 655" stroke="hsl(220 40% 55%)" stroke-width="1.5"/>
+    <path d="M 215 620 L 285 620" stroke="hsl(220 40% 55%)" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Subtle texture overlay -->
+  <rect width="1600" height="800" fill="url(#texture)" opacity="0.03"/>
+  <defs>
+    <pattern id="texture" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="white"/>
+      <circle cx="40" cy="30" r="1" fill="white"/>
+      <circle cx="70" cy="60" r="1" fill="white"/>
+      <circle cx="30" cy="80" r="1" fill="white"/>
+    </pattern>
+  </defs>
+</svg>
+
+
